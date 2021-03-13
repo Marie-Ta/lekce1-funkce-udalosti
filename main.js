@@ -1,6 +1,6 @@
 // tady je místo pro náš program
 
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
+//document.querySelector("#vysledek").innerHTML = secti(4, 5);
 
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
@@ -27,7 +27,12 @@ function upozorni() {
 let zelenyCtverecek;
 zelenyCtverecek = document.querySelector(".ctverecek");
 
-function poKliknuti(){
+function zmenBarvu(){
 zelenyCtverecek.style.backgroundColor = "green";
 }
 
+//Úkol 2
+
+function zobrazVysledek(){
+  document.querySelector("#vysledek").innerHTML = secti(4, 5);
+}
