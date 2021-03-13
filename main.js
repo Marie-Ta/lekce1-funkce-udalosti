@@ -22,3 +22,12 @@ function upozorni() {
 
 
 // TEST ZÁPISU NA GITHUB
+
+// Úkol 1
+let zelenyCtverecek;
+zelenyCtverecek = document.querySelector(".ctverecek");
+
+function poKliknuti(){
+zelenyCtverecek.style.backgroundColor = "green";
+}
+
