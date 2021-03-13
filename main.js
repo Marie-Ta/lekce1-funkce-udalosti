@@ -18,6 +18,8 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+  console.log("Gratulace, právě jsi spustila tuto funkci!");
+  document.querySelector(".ctverecek").innerHTML = "Funguje to!!!";
 }
 
 
@@ -36,3 +38,5 @@ zelenyCtverecek.style.backgroundColor = "green";
 function zobrazVysledek(){
   document.querySelector("#vysledek").innerHTML = secti(4, 5);
 }
+
+//Úkol 3 je na řádku 21 - 22
